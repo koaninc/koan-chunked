@@ -1,0 +1,31 @@
+{
+  "name": "chunked",
+  "version": "1.0.0",
+  "description": "A helper lib to create and apply chunks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeheber/chunked.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deeheber/chunked/issues"
+  },
+  "homepage": "https://github.com/deeheber/chunked#readme",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/lodash": "^4.14.176",
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
