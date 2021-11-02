@@ -1,5 +1,6 @@
 # koan-chunked
 **Work in progress - please don't mind the momentary mess**
+
 Helper functions to create and apply chunks. It's a wrapper around [lodash chunk](https://lodash.com/docs/4.17.15#chunk) that provides additional logging and a way to process the chunks.
 
 ## Install
