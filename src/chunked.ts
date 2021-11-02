@@ -1,14 +1,14 @@
-import _ from 'lodash';
+import _ from "lodash";
 
 export type Chunked<T> = { total: number; chunks: T[][] };
 
-function from<T>(ts: T[], chunkSize: number): Chunked<T> {
+export function from<T>(ts: T[], chunkSize: number): Chunked<T> {
   const chunks = _.chunk(ts, chunkSize);
   console.log(`${ts.length} to apply in (${chunks.length} chunks)`);
   return { total: ts.length, chunks };
 }
 
-async function apply<T>(
+export async function apply<T>(
   chunked: Chunked<T>,
   applyChunk: (ts: T[]) => Promise<any>,
 ): Promise<void> {
@@ -33,8 +33,3 @@ async function apply<T>(
     }
   }
 }
-
-export default {
-  from,
-  apply,
-};
