@@ -1,5 +1,5 @@
 {
-  "name": "chunked",
+  "name": "koan-chunked",
   "version": "1.0.0",
   "description": "A helper lib to create and apply chunks",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deeheber/chunked.git"
+    "url": "git+https://github.com/deeheber/koan-chunked.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deeheber/chunked/issues"
+    "url": "https://github.com/deeheber/koan-chunked/issues"
   },
-  "homepage": "https://github.com/deeheber/chunked#readme",
+  "homepage": "https://github.com/deeheber/koan-chunked#readme",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
     "@types/lodash": "^4.14.176",
