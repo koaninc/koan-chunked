@@ -2,10 +2,12 @@
   "name": "koan-chunked",
   "version": "1.0.0",
   "description": "A helper lib to create and apply chunks",
-  "main": "index.js",
+  "main": "./dist/chunked.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "build": "tsc",
+    "lint-dev": "eslint ./src/*.ts",
+    "lint": "eslint ./src/*.ts --quiet",
+    "test": "ts-mocha tests/**/*.test.ts"
   },
   "repository": {
     "type": "git",
@@ -19,10 +21,10 @@
   },
   "homepage": "https://github.com/deeheber/koan-chunked#readme",
   "devDependencies": {
-    "@tsconfig/node14": "^1.0.1",
     "@types/lodash": "^4.14.176",
-    "@types/node": "^16.11.6",
-    "ts-node": "^10.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^8.1.0",
     "typescript": "^4.4.4"
   },
   "dependencies": {

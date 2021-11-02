@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import * as _ from "lodash";
 
 export type Chunked<T> = { total: number; chunks: T[][] };
 
