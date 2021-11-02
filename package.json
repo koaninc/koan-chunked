@@ -1,7 +1,7 @@
 {
   "name": "koan-chunked",
   "version": "1.0.0",
-  "description": "A helper lib to create and apply chunks",
+  "description": "Helper functions to create and apply chunks",
   "main": "./dist/chunked.js",
   "scripts": {
     "build": "tsc",

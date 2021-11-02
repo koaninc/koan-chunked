@@ -7,7 +7,7 @@ describe("chunked unit tests", (): void => {
 
   describe("from", (): void => {
     it("groups of 2", (): void => {
-      const actual: chunked.Chunked<number> = chunked.from(original, 2);
+      const actual = chunked.from(original, 2);
       const expected = {
         "total": 10,
         "chunks": [
@@ -22,7 +22,7 @@ describe("chunked unit tests", (): void => {
     });
 
     it("groups of 4", (): void => {
-      const actual: chunked.Chunked<number> = chunked.from(original, 4);
+      const actual = chunked.from(original, 4);
       const expected = {
         "total": 10,
         "chunks": [
