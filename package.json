@@ -1,7 +1,7 @@
 {
   "name": "koan-chunked",
   "version": "1.0.0",
-  "description": "A helper lib to create and apply chunks",
+  "description": "Helper functions to create and apply chunks",
   "main": "./dist/chunked.js",
   "scripts": {
     "build": "tsc",
@@ -9,12 +9,21 @@
     "lint": "eslint ./src/*.ts --quiet",
     "test": "ts-mocha tests/**/*.test.ts"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deeheber/koan-chunked.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "koan",
+    "chunked",
+    "chunk"
+  ],
+  "author": "Danielle Heberling",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deeheber/koan-chunked/issues"
